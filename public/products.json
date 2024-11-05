@@ -18,7 +18,7 @@
   {
     "productId": 2,
     "product_title": "Dell XPS 13",
-    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "product_image": "https://i.ibb.co.com/7VYVBBQ/th.jpg",
     "category": "Laptop",
     "price": 1299.99,
     "description": "Sleek and powerful laptop with a stunning display and great battery life.",
@@ -34,7 +34,7 @@
   {
     "productId": 3,
     "product_title": "Apple iPad Pro",
-    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "product_image": "https://i.ibb.co.com/47DRRW3/download-1.jpg",
     "category": "Tablet",
     "price": 799.99,
     "description": "Powerful tablet with stunning Retina display, perfect for productivity and entertainment.",
@@ -50,7 +50,7 @@
   {
     "productId": 4,
     "product_title": "Samsung Galaxy Tab S7",
-    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "product_image": "https://i.ibb.co.com/MsYM9gM/download-2.jpg",
     "category": "Tablet",
     "price": 649.99,
     "description": "Versatile tablet with S Pen support and high-resolution display.",
@@ -66,7 +66,7 @@
   {
     "productId": 5,
     "product_title": "Apple iPhone 13",
-    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "product_image": "https://i.ibb.co.com/k8Nk0sx/Mobile-Phone2.jpg",
     "category": "Mobile Phone",
     "price": 799.99,
     "description": "Latest iPhone with A15 Bionic chip and advanced camera system.",
@@ -82,7 +82,7 @@
   {
     "productId": 6,
     "product_title": "Samsung Galaxy S21",
-    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "product_image": "https://i.ibb.co.com/rfx9t6r/Mobile-Phone3.jpg",
     "category": "Mobile Phone",
     "price": 799.99,
     "description": "Flagship smartphone with impressive camera capabilities and performance.",
@@ -98,7 +98,7 @@
   {
     "productId": 7,
     "product_title": "OnePlus 9",
-    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "product_image": "https://i.ibb.co.com/rfx9t6r/Mobile-Phone3.jpg",
     "category": "Mobile Phone",
     "price": 729.99,
     "description": "High-performance smartphone with Hasselblad camera and fast charging.",
@@ -130,7 +130,7 @@
   {
     "productId": 9,
     "product_title": "Lenovo Yoga 7i",
-    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "product_image": "https://i.ibb.co.com/7VYVBBQ/th.jpg",
     "category": "Laptop",
     "price": 949.99,
     "description": "Versatile 2-in-1 laptop with touchscreen and excellent battery life.",
@@ -146,7 +146,7 @@
   {
     "productId": 10,
     "product_title": "Apple Watch Series 7",
-    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "product_image": "https://i.ibb.co.com/Hq1mJ8z/OIP.jpg",
     "category": "Wearable",
     "price": 399.99,
     "description": "Smartwatch with fitness tracking, heart rate monitor, and customizable watch faces.",
@@ -162,7 +162,7 @@
   {
     "productId": 11,
     "product_title": "Sony WH-1000XM4",
-    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "product_image": "https://i.ibb.co.com/6mVGTyj/hedphone.jpg",
     "category": "Headphones",
     "price": 349.99,
     "description": "Noise-canceling headphones with superior sound quality.",
@@ -178,7 +178,7 @@
   {
     "productId": 12,
     "product_title": "Apple AirPods Pro",
-    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "product_image": "https://i.ibb.co.com/6mVGTyj/hedphone.jpg",
     "category": "Headphones",
     "price": 249.99,
     "description": "Wireless earbuds with active noise cancellation and customizable fit.",
@@ -210,7 +210,7 @@
   {
     "productId": 14,
     "product_title": "Google Pixel 6",
-    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "product_image": "https://i.ibb.co.com/k8Nk0sx/Mobile-Phone2.jpg",
     "category": "Mobile Phone",
     "price": 599.99,
     "description": "Smartphone with Google Tensor chip and excellent camera performance.",
@@ -226,7 +226,7 @@
   {
     "productId": 15,
     "product_title": "Asus ROG Zephyrus G14",
-    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "product_image": "https://i.ibb.co.com/7VYVBBQ/th.jpg",
     "category": "Laptop",
     "price": 1499.99,
     "description": "Compact gaming laptop with powerful performance and stylish design.",

@@ -7,7 +7,7 @@ const Footer = () => {
 
  
 
-    <footer className="bg-gray-100 py-10">
+    <footer className="bg-gray-200 py-10">
       <div className="text-center mb-6">
         <h2 className="text-xl font-semibold">Gadget Heaven</h2>
         <p className="text-gray-500">Leading the way in cutting-edge technology and innovation.</p>

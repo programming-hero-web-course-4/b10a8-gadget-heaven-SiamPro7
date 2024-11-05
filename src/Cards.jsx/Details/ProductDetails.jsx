@@ -1,10 +1,15 @@
 
 
-// import Pdetails from "./Pdetails";
 
 
-const ProductDetails = (product) => {
-const { product_image, productId } = product;
+import { useLoaderData } from "react-router-dom";
+
+
+const ProductDetails = () => {
+
+const detailscard = useLoaderData();
+console.log(detailscard);
+
 
   return (
     <div className="flex flex-col items-center bg-purple-600 py-6">
@@ -14,12 +19,8 @@ const { product_image, productId } = product;
         Explore the latest gadgets that will take your experience to the next
         level. From smart devices to the coolest accessories, we have it all!
       </p>
-      <h3 className="text-lg font-semibold">{productId}</h3>
-      <img
-        src={product_image}
-        alt={product.product_title}
-        className="w-full h-40 object-cover rounded-md mb-4"
-      />
+      <h3 className="text-lg font-semibold">{}</h3>
+      
     </div>
   );
 };

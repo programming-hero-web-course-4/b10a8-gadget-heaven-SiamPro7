@@ -5,7 +5,9 @@ const Navber = () => {
   return (
     <nav className="bg-purple-600 p-4 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-white">Gadget Heaven</h1>
+        <h1 className="text-2xl font-bold text-white">
+          <Link to='/'>Gadget Heaven</Link>
+        </h1>
 
         {/* Navigation Links */}
         <div className="flex space-x-6">

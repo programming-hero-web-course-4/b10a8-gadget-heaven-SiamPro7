@@ -6,6 +6,8 @@ import Statistics from "../Statisticss/Statistics";
 
 import Cards from "../Cards.jsx/Cards";
 import ProductDetails from "../Cards.jsx/Details/ProductDetails";
+import Speratedcatagory from "../Cards.jsx/Speratedcatagory";
+import Detailscard from "../Cards.jsx/Details/Detailscard";
 
 // import Cards from "../Cards.jsx/Cards";
 
@@ -17,17 +19,16 @@ const routes = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-        loader: () => fetch("/categores.json"),
+        loader: () => fetch("./categores.json"),
         children: [
+          {
+            path: "/category/:category",
+            element:<Speratedcatagory/>
+          },
           {
             path: "/card",
             element: <Cards />,
-            children: [
-              // {
-              //   path: "details",
-              //   element: <ProductDetails />,
-              // },
-            ],
+            children: [],
           },
         ],
       },
@@ -40,9 +41,16 @@ const routes = createBrowserRouter([
         element: <Dashboard />,
       },
       {
-                 path: "/details",
-                element: <ProductDetails/>
-               },
+        path: "/details",
+        element: <ProductDetails />,
+        loader:() => fetch('./products.json'),
+        children:[
+          {
+            path:"/detailscard",
+            element:<Detailscard/>
+          }
+        ]
+      },
     ],
   },
 ]);
