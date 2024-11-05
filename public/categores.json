@@ -1,0 +1,27 @@
+[
+  {
+    "productId": 1,
+    "category": "Laptop",
+    "product_title": "Apple MacBook Pro"
+  },
+  {
+    "productId": 3,
+    "category": "Tablet",
+    "product_title": "Apple iPad Pro"
+  },
+  {
+    "productId": 5,
+    "category": "Mobile Phone",
+    "product_title": "Apple iPhone 13"
+  },
+  {
+    "productId": 10,
+    "category": "Wearable",
+    "product_title": "Apple Watch Series 7"
+  },
+  {
+    "productId": 11,
+    "category": "Headphones",
+    "product_title": "Sony WH-1000XM4"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "productId": 1,
+    "product_title": "Apple MacBook Pro",
+    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "category": "Laptop",
+    "price": 1999.99,
+    "description": "High-performance laptop with Apple M1 chip, ideal for creative professionals.",
+    "specification": {
+      "processor": "Apple M1",
+      "ram": "16 GB",
+      "storage": "512 GB SSD",
+      "screenSize": "13.3 inches"
+    },
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "productId": 2,
+    "product_title": "Dell XPS 13",
+    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "category": "Laptop",
+    "price": 1299.99,
+    "description": "Sleek and powerful laptop with a stunning display and great battery life.",
+    "specification": {
+      "processor": "Intel i7",
+      "ram": "16 GB",
+      "storage": "1 TB SSD",
+      "screenSize": "13.4 inches"
+    },
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "productId": 3,
+    "product_title": "Apple iPad Pro",
+    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "category": "Tablet",
+    "price": 799.99,
+    "description": "Powerful tablet with stunning Retina display, perfect for productivity and entertainment.",
+    "specification": {
+      "processor": "Apple M1",
+      "ram": "8 GB",
+      "storage": "128 GB",
+      "screenSize": "11 inches"
+    },
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "productId": 4,
+    "product_title": "Samsung Galaxy Tab S7",
+    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "category": "Tablet",
+    "price": 649.99,
+    "description": "Versatile tablet with S Pen support and high-resolution display.",
+    "specification": {
+      "processor": "Qualcomm Snapdragon 865+",
+      "ram": "8 GB",
+      "storage": "128 GB",
+      "screenSize": "11 inches"
+    },
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "productId": 5,
+    "product_title": "Apple iPhone 13",
+    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "category": "Mobile Phone",
+    "price": 799.99,
+    "description": "Latest iPhone with A15 Bionic chip and advanced camera system.",
+    "specification": {
+      "processor": "A15 Bionic",
+      "ram": "4 GB",
+      "storage": "128 GB",
+      "screenSize": "6.1 inches"
+    },
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "productId": 6,
+    "product_title": "Samsung Galaxy S21",
+    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "category": "Mobile Phone",
+    "price": 799.99,
+    "description": "Flagship smartphone with impressive camera capabilities and performance.",
+    "specification": {
+      "processor": "Exynos 2100",
+      "ram": "8 GB",
+      "storage": "128 GB",
+      "screenSize": "6.2 inches"
+    },
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "productId": 7,
+    "product_title": "OnePlus 9",
+    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "category": "Mobile Phone",
+    "price": 729.99,
+    "description": "High-performance smartphone with Hasselblad camera and fast charging.",
+    "specification": {
+      "processor": "Snapdragon 888",
+      "ram": "8 GB",
+      "storage": "128 GB",
+      "screenSize": "6.55 inches"
+    },
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "productId": 8,
+    "product_title": "Microsoft Surface Laptop 4",
+    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "category": "Laptop",
+    "price": 1599.99,
+    "description": "Premium laptop with a sleek design and impressive performance.",
+    "specification": {
+      "processor": "Intel i7",
+      "ram": "16 GB",
+      "storage": "512 GB SSD",
+      "screenSize": "13.5 inches"
+    },
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "productId": 9,
+    "product_title": "Lenovo Yoga 7i",
+    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "category": "Laptop",
+    "price": 949.99,
+    "description": "Versatile 2-in-1 laptop with touchscreen and excellent battery life.",
+    "specification": {
+      "processor": "Intel i5",
+      "ram": "16 GB",
+      "storage": "512 GB SSD",
+      "screenSize": "14 inches"
+    },
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "productId": 10,
+    "product_title": "Apple Watch Series 7",
+    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "category": "Wearable",
+    "price": 399.99,
+    "description": "Smartwatch with fitness tracking, heart rate monitor, and customizable watch faces.",
+    "specification": {
+      "processor": "Apple S7",
+      "battery": "18 hours",
+      "features": "GPS, Water Resistant",
+      "displaySize": "1.7 inches"
+    },
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "productId": 11,
+    "product_title": "Sony WH-1000XM4",
+    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "category": "Headphones",
+    "price": 349.99,
+    "description": "Noise-canceling headphones with superior sound quality.",
+    "specification": {
+      "battery": "30 hours",
+      "connectivity": "Bluetooth",
+      "features": "Touch controls",
+      "weight": "254 grams"
+    },
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "productId": 12,
+    "product_title": "Apple AirPods Pro",
+    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "category": "Headphones",
+    "price": 249.99,
+    "description": "Wireless earbuds with active noise cancellation and customizable fit.",
+    "specification": {
+      "battery": "4.5 hours",
+      "connectivity": "Bluetooth",
+      "features": "Siri integration",
+      "weight": "5.4 grams"
+    },
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "productId": 13,
+    "product_title": "Razer Blade 15",
+    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "category": "Laptop",
+    "price": 2299.99,
+    "description": "Gaming laptop with high refresh rate display and customizable RGB lighting.",
+    "specification": {
+      "processor": "Intel i7",
+      "ram": "16 GB",
+      "storage": "1 TB SSD",
+      "screenSize": "15.6 inches"
+    },
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "productId": 14,
+    "product_title": "Google Pixel 6",
+    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "category": "Mobile Phone",
+    "price": 599.99,
+    "description": "Smartphone with Google Tensor chip and excellent camera performance.",
+    "specification": {
+      "processor": "Google Tensor",
+      "ram": "8 GB",
+      "storage": "128 GB",
+      "screenSize": "6.4 inches"
+    },
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "productId": 15,
+    "product_title": "Asus ROG Zephyrus G14",
+    "product_image": "https://i.ibb.co.com/cJMgL79/download.jpg",
+    "category": "Laptop",
+    "price": 1499.99,
+    "description": "Compact gaming laptop with powerful performance and stylish design.",
+    "specification": {
+      "processor": "AMD Ryzen 9",
+      "ram": "16 GB",
+      "storage": "1 TB SSD",
+      "screenSize": "14 inches"
+    },
+    "availability": true,
+    "rating": 4.7
+  }
+]
