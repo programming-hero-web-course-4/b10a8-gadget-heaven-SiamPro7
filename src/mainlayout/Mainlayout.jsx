@@ -10,12 +10,10 @@ const Mainlayout = () => {
     return (
       <div>
         <Navber />
-        <Outlet/>
+        <Outlet />
+
         
-        
-       
-        
-        
+
         <Footer />
       </div>
     );

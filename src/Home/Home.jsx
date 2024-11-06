@@ -17,9 +17,12 @@ const Home = () => {
             {/* categores section */}
             <ButtonCategory categores={categores} />
           </div>
+
           <div>
-            <Outlet/>
-            
+            <h2 className="text-2xl font-bold mb-6 text-center">
+              Explore Cutting-Edge Gadgets
+            </h2>
+            <Outlet />
           </div>
         </div>
 

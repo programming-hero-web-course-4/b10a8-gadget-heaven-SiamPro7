@@ -1,5 +1,5 @@
 import { FaShoppingCart, FaHeart } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navber = () => {
   return (
@@ -12,9 +12,15 @@ const Navber = () => {
         {/* Navigation Links */}
         <div className="flex space-x-6">
           <ul className="flex space-x-6 text-white  ">
-            <Link to="/">Home</Link>
-            <Link to="/statistics">Statistics</Link>
-            <Link to="/dashboard">Dashboard</Link>
+            <NavLink to="/"  className={({isActive} ) =>
+          isActive ? "bg-black p-2 rounded-lg" : "p-2"}>Home</NavLink>
+            <NavLink to="/statistics"  className={({isActive} ) =>
+          isActive ? "bg-black p-2 rounded-lg" : "p-2"}>Statistics</NavLink>
+            <NavLink to="/dashboard"  className={({isActive} ) =>
+          isActive ? "bg-black p-2 rounded-lg" : "p-2"}>Dashboard</NavLink>
+            <NavLink to="/about"  className={({isActive} ) =>
+          isActive ? "bg-black p-2 rounded-lg" : "p-2"}>About us</NavLink>
+            
           </ul>
         </div>
 
