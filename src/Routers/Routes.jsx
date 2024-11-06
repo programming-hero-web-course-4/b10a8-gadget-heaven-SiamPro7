@@ -8,6 +8,8 @@ import Cards from "../Cards.jsx/Cards";
 import ProductDetails from "../Cards.jsx/Details/ProductDetails";
 import Speratedcatagory from "../Cards.jsx/Speratedcatagory";
 import AboutUs from "../About/About";
+import Cart from "../Dashboard/Cart";
+import Wishlist from "../Dashboard/Wishlist";
 
 
 
@@ -46,6 +48,16 @@ const routes = createBrowserRouter([
       {
         path: "/dashboard",
         element: <Dashboard />,
+        children:[
+          {
+            path:'cart',
+            element:<Cart/>
+          },
+          {
+            path:'wish',
+            element:<Wishlist/>
+          },
+        ]
 
       },
       {

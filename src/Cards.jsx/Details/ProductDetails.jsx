@@ -1,9 +1,14 @@
 import { FaHeart, FaShoppingCart } from "react-icons/fa";
 import { Link, useLoaderData, useParams } from "react-router-dom";
+import { addCart } from "../../Utility";
+import { useState } from "react";
+import { addWish } from "../../Utility/index2";
 
 const ProductDetails = () => {
   const { productId } = useParams();
   console.log(productId);
+
+  const [isFavorite,setFavorite]=useState(false);
 
   const detailscard = useLoaderData();
   console.log(detailscard);
@@ -18,7 +23,21 @@ const ProductDetails = () => {
     description,
     availability,
     specification,
+    rating,
   } = product;
+
+  // handle cart button 
+  const handleproduct=product=>{
+    addCart(product)
+    setFavorite(true)
+  
+  }
+  // handle wish button
+  const handleWish=product=>{
+    addWish(product);
+    setFavorite(true)
+    // getAllFavourites()
+  }
 
   console.log(product);
   return (
@@ -53,10 +72,10 @@ const ProductDetails = () => {
               <div className="mt-4">
                 <p className="font-semibold">Specification:{}</p>
                 <ul className="list-disc list-inside text-sm text-gray-600">
-                  <li>Intel i7 11th Gen</li>
-                  <li>16GB RAM</li>
-                  <li>512GB SSD</li>
-                  <li>Touchscreen</li>
+                  <li>{specification.processor}</li>
+                  <li>{specification.ram}</li>
+                  <li>{specification.storage}</li>
+                  <li>{specification.screenSize}</li>
                 </ul>
               </div>
             </div>
@@ -69,23 +88,24 @@ const ProductDetails = () => {
                 <span>⭐</span>
                 <span>⭐</span>
                 <span>⭐</span>
-                <span className="text-gray-500 ml-2">(4.8)</span>
+                <span className="text-gray-500 ml-2">{rating}</span>
               </div>
             </div>
             <div>
-              <Link
-                to="/dashboard"
+              <button
+                disabled={isFavorite}
+                onClick={() => handleproduct(product)}
                 className="btn w-48 text-white bg-purple-600 hover:bg-purple-700 "
               >
                 Add to cart
                 <FaShoppingCart />
-              </Link>
-              <Link
-                to="/dashboard"
+              </button>
+              <button
+                onClick={() => handleWish(product)}
                 className="btn w-18 mx-3 border-purple-600  hover:bg-purple-700 "
               >
                 <FaHeart />
-              </Link>
+              </button>
             </div>
           </div>
         </div>
